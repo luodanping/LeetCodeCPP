@@ -14,7 +14,6 @@
 当前值与其后的任意值组合，求和看是否满足结果。
 
 代码：
-
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -27,7 +26,6 @@ public:
                 {
                     ret.push_back(i);
                     ret.push_back(j);
-                   
                 }
             }
         }
